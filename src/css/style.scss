@@ -1,0 +1,135 @@
+.q-page {
+  padding-top: 80px;
+  background: linear-gradient(-60deg, #00b4db, #0083b0);
+  background-position: top left;
+  background-size: cover;
+}
+
+.q-header {
+  background: rgba($color: #000, $alpha: 0.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.circle {
+  background-color: rgba($color: #fff, $alpha: 0.3);
+  border-radius: 50%;
+}
+
+.form-city {
+  margin-bottom: 50px;
+}
+
+.main-temperature {
+  width: 210px;
+  height: 210px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.temperatures-today .temp {
+  font-size: 2.5em;
+}
+
+.temperatures-today .separator {
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 2.5em;
+}
+
+.main-temperature p {
+  margin-bottom: 0;
+}
+
+.main-temperature img {
+  width: 50px;
+}
+
+.main-temperature .weather-description {
+  font-size: 1.1em;
+  text-transform: capitalize;
+}
+
+.main-temperature .real-feel {
+  font-size: 1.2em;
+}
+
+.prevision {
+  margin: 50px auto;
+}
+
+.prevision p {
+  margin-bottom: 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.prevision .day {
+  font-weight: bold;
+}
+
+.prevision .min {
+  color: #d1d1d1;
+}
+
+.prevision img {
+  width: 50px;
+  margin: 5px 0;
+}
+
+.today-info {
+  margin-bottom: 50px;
+}
+
+.today-info .circle {
+  width: 90px;
+  height: 90px;
+}
+
+.today-info .circle p {
+  margin-bottom: 0;
+}
+
+.today-info .circle .value {
+  font-size: 1.1em;
+}
+
+.weather-forecast {
+  margin-bottom: 30px;
+}
+
+.weather-forecast .date {
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.weather-forecast .table td {
+  padding: 5px 10px;
+  font-size: 1.1em;
+  border: none;
+}
+
+.weather-forecast .table img {
+  width: 30px;
+}
+
+#weather-forecast-chart {
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: rgba($color: #000, $alpha: 0.2);
+  font-size: 1.1em;
+}
+
+
